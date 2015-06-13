@@ -14,6 +14,7 @@
 		5BE4307B1B2B985300205E9C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5BE4307A1B2B985300205E9C /* Images.xcassets */; };
 		5BE4307E1B2B985300205E9C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5BE4307C1B2B985300205E9C /* LaunchScreen.xib */; };
 		5BE4308A1B2B985300205E9C /* photoPickerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BE430891B2B985300205E9C /* photoPickerTests.m */; };
+		5BE430951B2B988B00205E9C /* XPhotoPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BE430941B2B988B00205E9C /* XPhotoPickerView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		5BE430831B2B985300205E9C /* photoPickerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = photoPickerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5BE430881B2B985300205E9C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5BE430891B2B985300205E9C /* photoPickerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = photoPickerTests.m; sourceTree = "<group>"; };
+		5BE430931B2B988B00205E9C /* XPhotoPickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XPhotoPickerView.h; sourceTree = "<group>"; };
+		5BE430941B2B988B00205E9C /* XPhotoPickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XPhotoPickerView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +88,8 @@
 				5BE430721B2B985200205E9C /* AppDelegate.m */,
 				5BE430741B2B985200205E9C /* ViewController.h */,
 				5BE430751B2B985200205E9C /* ViewController.m */,
+				5BE430931B2B988B00205E9C /* XPhotoPickerView.h */,
+				5BE430941B2B988B00205E9C /* XPhotoPickerView.m */,
 				5BE430771B2B985300205E9C /* Main.storyboard */,
 				5BE4307A1B2B985300205E9C /* Images.xcassets */,
 				5BE4307C1B2B985300205E9C /* LaunchScreen.xib */,
@@ -219,6 +224,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5BE430951B2B988B00205E9C /* XPhotoPickerView.m in Sources */,
 				5BE430761B2B985200205E9C /* ViewController.m in Sources */,
 				5BE430731B2B985200205E9C /* AppDelegate.m in Sources */,
 				5BE430701B2B985200205E9C /* main.m in Sources */,
