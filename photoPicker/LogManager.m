@@ -7,6 +7,7 @@
 //
 
 #import "LogManager.h"
+#import <AdSupport/ASIdentifierManager.h>
 
 #define FilePath [[NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES) objectAtIndex:0] stringByAppendingPathComponent:@"app.log"]
 
@@ -25,6 +26,34 @@ static LogManager *instance = nil;
     if (instance == nil) {
         instance = [[LogManager alloc]init];
         
+        NSString *ad = [[[ASIdentifierManager sharedManager] advertisingIdentifier] UUIDString];
+//        openUDID = [OpenUDID value];
+//        SecureUDID = [SecureUDID UDIDForDomain:SECUREUDID_DOMAIN usingKey:SECUREUDID_KEY];
+        
+//        KeychainItemWrapper *keychainItem = [[KeychainItemWrapper alloc]
+//                                             2
+//                                             initWithIdentifier:@"UUID"
+//                                             3
+//            http://blog.k-res.net/archives/1081.html                                 accessGroup:@"YOUR_BUNDLE_SEED.com.yourcompany.userinfo"];
+//        4
+//        NSString *strUUID = [keychainItem objectForKey:(id)kSecValueData];
+//        5
+//        if ([strUUID isEqualToString:@""])
+//            6
+//        {
+//            7
+//            CFUUIDRef uuidRef = CFUUIDCreate(kCFAllocatorDefault);
+//            8
+//            strUUID = (NSString *)CFUUIDCreateString (kCFAllocatorDefault,uuidRef);
+//            9
+//            [keychainItem setObject:strUUID forKey:(id)kSecValueData];
+//            10
+//        }
+//        11
+//        [FlurryAnalytics setUserID:strUUID];
+//        12
+//        [keychainItem release];
+
     }
     return instance;
 }

@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		5B59BB631B2CF489005DC9B4 /* LogManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B59BB621B2CF489005DC9B4 /* LogManager.m */; };
+		5B59BB651B2D04EC005DC9B4 /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B59BB641B2D04EC005DC9B4 /* AdSupport.framework */; };
 		5BE430701B2B985200205E9C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BE4306F1B2B985200205E9C /* main.m */; };
 		5BE430731B2B985200205E9C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BE430721B2B985200205E9C /* AppDelegate.m */; };
 		5BE430761B2B985200205E9C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BE430751B2B985200205E9C /* ViewController.m */; };
@@ -31,6 +32,7 @@
 /* Begin PBXFileReference section */
 		5B59BB611B2CF489005DC9B4 /* LogManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LogManager.h; sourceTree = "<group>"; };
 		5B59BB621B2CF489005DC9B4 /* LogManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LogManager.m; sourceTree = "<group>"; };
+		5B59BB641B2D04EC005DC9B4 /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
 		5BE4306A1B2B985200205E9C /* photoPicker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = photoPicker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5BE4306E1B2B985200205E9C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5BE4306F1B2B985200205E9C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -53,6 +55,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5B59BB651B2D04EC005DC9B4 /* AdSupport.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -69,6 +72,7 @@
 		5BE430611B2B985200205E9C = {
 			isa = PBXGroup;
 			children = (
+				5B59BB641B2D04EC005DC9B4 /* AdSupport.framework */,
 				5BE4306C1B2B985200205E9C /* photoPicker */,
 				5BE430861B2B985300205E9C /* photoPickerTests */,
 				5BE4306B1B2B985200205E9C /* Products */,
