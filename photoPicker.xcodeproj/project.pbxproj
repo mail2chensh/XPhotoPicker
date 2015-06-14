@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5B59BB631B2CF489005DC9B4 /* LogManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B59BB621B2CF489005DC9B4 /* LogManager.m */; };
 		5BE430701B2B985200205E9C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BE4306F1B2B985200205E9C /* main.m */; };
 		5BE430731B2B985200205E9C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BE430721B2B985200205E9C /* AppDelegate.m */; };
 		5BE430761B2B985200205E9C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BE430751B2B985200205E9C /* ViewController.m */; };
@@ -28,6 +29,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5B59BB611B2CF489005DC9B4 /* LogManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LogManager.h; sourceTree = "<group>"; };
+		5B59BB621B2CF489005DC9B4 /* LogManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LogManager.m; sourceTree = "<group>"; };
 		5BE4306A1B2B985200205E9C /* photoPicker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = photoPicker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5BE4306E1B2B985200205E9C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5BE4306F1B2B985200205E9C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -90,6 +93,8 @@
 				5BE430751B2B985200205E9C /* ViewController.m */,
 				5BE430931B2B988B00205E9C /* XPhotoPickerView.h */,
 				5BE430941B2B988B00205E9C /* XPhotoPickerView.m */,
+				5B59BB611B2CF489005DC9B4 /* LogManager.h */,
+				5B59BB621B2CF489005DC9B4 /* LogManager.m */,
 				5BE430771B2B985300205E9C /* Main.storyboard */,
 				5BE4307A1B2B985300205E9C /* Images.xcassets */,
 				5BE4307C1B2B985300205E9C /* LaunchScreen.xib */,
@@ -227,6 +232,7 @@
 				5BE430951B2B988B00205E9C /* XPhotoPickerView.m in Sources */,
 				5BE430761B2B985200205E9C /* ViewController.m in Sources */,
 				5BE430731B2B985200205E9C /* AppDelegate.m in Sources */,
+				5B59BB631B2CF489005DC9B4 /* LogManager.m in Sources */,
 				5BE430701B2B985200205E9C /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -422,6 +428,7 @@
 				5BE4308F1B2B985300205E9C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5BE430901B2B985300205E9C /* Build configuration list for PBXNativeTarget "photoPickerTests" */ = {
 			isa = XCConfigurationList;
@@ -430,6 +437,7 @@
 				5BE430921B2B985300205E9C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
